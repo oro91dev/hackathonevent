@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from 'react-slick';
+import Slider from "react-slick";
 
 import slide_one from '../../resources/images/slide_one.jpeg';
 import slide_two from '../../resources/images/slide_two.jpg';
@@ -33,8 +33,6 @@ const Carrousel = () => {
                         }}
                    ></div>
                 </div>
-  
-
 
             </Slider>
         </div>
