@@ -25,6 +25,14 @@ body {
   background: #ffa800;
 }
 
+.bck_green {
+  background: #27ae60;
+}
+
+.bck_purple {
+  background: #8e44ad;
+}
+
 .iconImage {
   width: 20px;
   margin-right: 10px;
@@ -130,4 +138,230 @@ header .header_logo_title {
   text-transform: uppercase;
   font-size: 20px;
   padding-left: 7px;
+}
+/*========================
+        Hackathoon Info
+==========================*/
+.hn_wrapper {
+  display: flex;
+  padding: 170px 0px;
+}
+
+.hn_item {
+  width: 50%;
+  color:#ffffff;
+  text-align: center;
+  margin: 15px;
+}
+
+.hn_item .hn_outer {
+  width: 300px;
+  border: 2px solid #2980b9;
+  margin: auto;
+  padding: 5px;
+
+}
+
+.hn_item .hn_inner {
+  border: 2px solid #2980b9;
+  position: relative;
+  padding: 0px 20px;
+  transition: all 500ms ease;
+}
+
+.vn_item .vn_inner:hover {
+  background: #3c3c3c;
+}
+
+.hn_item .hn_icon_square {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -54px;
+  left: 100px;
+}
+
+.hn_item .hn_icon {
+  width: 50px;
+  height: 50px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  position: absolute;
+  top: -30px;
+  left: 124px; 
+}
+
+.hn_item .hn_title {
+  font-size: 28px;
+  margin: 90px 0px 20px 0px;
+  border-bottom: 1px solid #5d5d5d;
+  padding: 10px;
+}
+
+.hn_item .hn_desc {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 90px;
+}
+
+/*========================
+        Høydepunkter
+==========================*/
+.highlight_wrapper h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  font-size: 52px;
+}
+
+.highlight_wrapper .highlight_description {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 30px 0px;
+}
+
+.discount_wrapper {
+  display: flex;
+  padding: 70px 0px;
+}
+
+.discount_wrapper .discount_percentage {
+  padding-right: 100px;
+}
+
+.discount_wrapper .discount_percentage span:nth-child(1) {
+  color: #ff4800;
+  font-size: 125px;
+  font-weight: 400;
+  display: block;
+  line-height: 120px;
+}
+
+.discount_wrapper .discount_percentage span:nth-child(2) {
+  color: #2c2c2c;
+  font-size: 50px;
+  font-weight: 400;
+  display: block;
+}
+
+.discount_wrapper .discount_description h3 {
+  font-size: 34px;
+  font-weight: 100;
+  margin: 0px;
+  color: #2c2c2c;
+}
+
+.discount_wrapper .discount_description p {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
+/*========================
+        Pris
+==========================*/
+.pricing_section {
+  padding: 90px 0px;
+}
+
+.pricing_section h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+}
+
+.pricing_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.pricing_wrapper .pricing_item {
+  flex-grow: 1;
+  width: 33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.pricing_wrapper .pricing_inner_wrapper {
+  border: 2px solid #ffa800;
+  padding: 50px 20px;
+}
+
+.pricing_inner_wrapper .pricing_title {
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 1px solid #ffa800;
+  padding-bottom: 20px;
+}
+
+.pricing_inner_wrapper .pricing_title span:nth-child(1) {
+  font-size: 50px;
+  display: block;
+}
+
+.pricing_inner_wrapper .pricing_title span:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.pricing_inner_wrapper .pricing_description {
+  color: #b8b8b8;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0px;
+  min-height: 70px;
+}
+
+.pricing_inner_wrapper .pricing_buttons {
+  text-align: center;
+}
+
+/*========================
+        Lokasjon
+==========================*/
+
+.location_wrapper {
+  position: relative;
+}
+
+.location_tag {
+  position: top;
+  margin-top: -80px;
+  width: 100%;
+}
+
+.location_tag div{
+  background: #2c2c2c;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  width: 220px;
+  margin: 0 auto;
+  font-size: 30px;
+  padding: 15px 20px;
+}
+/*========================
+        Footer
+==========================*/
+
+footer {
+  padding: 50px 0px;
+  text-align: center;
+  font-size: 60px;
+  color:#dddddd;
+  background: #ff4800;
+}
+
+footer .footer_copyright {
+  font-size: 18px;
 }
